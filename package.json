@@ -1,0 +1,17 @@
+{
+  "name": "Bug",
+  "version": "1.0",
+  "description": "A minimal example for a Dune bug.",
+  "esy": {
+    "buildsInSource": "_build",
+    "buildEnv": {
+      "COQBIN": "#{@opam/coq.bin}/",
+      "COQLIB": "#{@opam/coq.lib}/coq/"
+    },
+    "build": "make"
+  },
+  "dependencies": {
+    "@opam/coq": "8.10.1",
+    "@opam/dune": "2.5.1"
+  }
+}
