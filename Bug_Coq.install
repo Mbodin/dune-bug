@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/Bug_Coq/META"
+  "_build/install/default/lib/Bug_Coq/dune-package"
+  "_build/install/default/lib/Bug_Coq/opam"
+]
+lib_root: [
+  "_build/install/default/lib/coq/user-contrib/Bug_Coq/common.v" {"coq/user-contrib/Bug_Coq/common.v"}
+  "_build/install/default/lib/coq/user-contrib/Bug_Coq/common.vo" {"coq/user-contrib/Bug_Coq/common.vo"}
+  "_build/install/default/lib/coq/user-contrib/Bug_Coq/value.v" {"coq/user-contrib/Bug_Coq/value.v"}
+  "_build/install/default/lib/coq/user-contrib/Bug_Coq/value.vo" {"coq/user-contrib/Bug_Coq/value.vo"}
+]

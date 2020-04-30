@@ -2,6 +2,7 @@
 
 all:
 	export HOME=`pwd`; dune build @all
+	dune build -p Bug_Coq
 
 clean:
 	rm -rf _build || true
