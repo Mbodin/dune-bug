@@ -7,3 +7,7 @@
 /_build
 /node_modules
 
+*.aux
+*.glob
+*.vo
+
